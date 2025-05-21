@@ -17,6 +17,7 @@ ansible/
     └── index.php         # Application files (e.g., "Hello World" PHP script)
 
 In this structure:
+
 **ansible**/ is the root directory containing all Ansible-related files.
 
 **playbook.yml** is the playbook file that defines the tasks to be performed by Ansible.
