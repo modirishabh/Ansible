@@ -13,6 +13,7 @@ ansible/
 ├── inventory       # The Ansible inventory file with the list of servers
 
 └── files/          # Directory containing the application files to be deployed
+    
     └── index.php         # Application files (e.g., "Hello World" PHP script)
 
 In this structure:
