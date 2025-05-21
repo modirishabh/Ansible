@@ -4,9 +4,14 @@
 This repository contains a minimal web application architecture that we will use to learn how to integrate Ansible with GitHub Actions. The application is built using Apache and PHP running on a Linux server.
 
 ## Repository Structure
+
+
 ansible/
+
 ├── playbook.yml    # The main Ansible playbook for setting up the server
+
 ├── inventory       # The Ansible inventory file with the list of servers
+
 └── files/          # Directory containing the application files to be deployed
     └── index.php         # Application files (e.g., "Hello World" PHP script)
 
