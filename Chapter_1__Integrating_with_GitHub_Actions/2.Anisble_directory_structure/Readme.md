@@ -18,8 +18,11 @@ ansible/
 
 In this structure:
 **ansible**/ is the root directory containing all Ansible-related files.
+
 **playbook.yml** is the playbook file that defines the tasks to be performed by Ansible.
+
 **inventory** is the file that lists the servers where the Ansible playbook will run.
+
 **files/** is the directory where the actual application files are stored, which in this case would be the "Hello World" PHP script and any other necessary files for the web application.
 
 ## The Application
